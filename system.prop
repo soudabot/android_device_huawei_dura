@@ -1,1 +1,51 @@
+# audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
 
+# performance
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
+# Disable dirty region for Mali
+#debug.hwui.render_dirty_regions=false (un ingeniero fue despedido por esto Lmao)
+
+# disable ipo for development
+sys.ipo.disable=1
+ro.pg.platform.type=2
+ro.config.pg_camera_cabc=true
+#/* BEGIN DTS2018021105432 modified by gwx475751,2018/2/11 */
+ro.control.sleeplog=true
+#/* END DTS2018021105432 modified by gwx475751,2018/2/11 */
+
+# kernel
+ro.kernel.zio=38,108,105,16
+
+# density
+# TODO: PON ALGO ACA CTM
+
+# temporary enables NAV bar (soft keys)
+qemu.hw.mainkeys=0
+
+# Power off opt in IPO
+sys.ipo.pwrdncap=2
+
+# USB
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.sys.usb.charging.only=yes
+
+#  wifi
+wifi.interface=wlan0
+ro.mediatek.wlan.wsc=1
+ro.mediatek.wlan.p2p=1
+mediatek.wlan.ctia=0
+wifi.tethering.interface=ap0
+wifi.direct.interface=p2p0
+
+# Zygote
+ro.zygote.preload.enable=0
+
+# rild
+rild.libpath=mtk-ril.so
+rild.libargs=-d /dev/ttyC0
