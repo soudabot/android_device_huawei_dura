@@ -1,1 +1,3 @@
-
+add_lunch_combo lineage_dura-user
+add_lunch_combo lineage_dura-userdebug
+add_lunch_combo lineage_dura-eng
